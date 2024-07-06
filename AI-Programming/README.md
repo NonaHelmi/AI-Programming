@@ -1,89 +1,99 @@
-# AI-Programming-using-Python
-This repository contains implementation of different AI algorithms, based on the amazing AI book [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu) (4th edition, 2020).
-## Contents
+- Search tree algorithm
 
-### First part:
-- Search problems
-    - Uninformed search strategies:
-        - BFS, DFS, UCS, DLS, IDS
-    - Informed search strategies:
-        - Gready, A-star
+## Uninformed algorithms
 
+- Breadth First Search
 <p align="center">
-  <img width="85%" src="Search/imgs/sample_solution_path.png">
-  <br>Example: solving 8-puzzle using search algorithms.
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/Breadth-First-Search-Algorithm.gif">
 </p>
 
-    - Local search:
-        - Hill climbing, Simulated Annealing, Genetic algorithms
-
+- Uniform cost search algorithm
 <p align="center">
-  <img width="50%" src="Search/imgs/50-tsp-sa.gif">
-  <br>Example solution found by simulated annealing for TSP problem (for 50 cities).
+  <img width="20%" img src="https://github.com/nidadinch/UniformCostSearch/blob/main/RoadMap.png">
 </p>
 
-<p align="center">
-  <img width="100%" src="Search/imgs/10-queens.gif">
-  <br>Example: solving 10-Queens using simulated annealing.
+- Depth search algorithm
+   <p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/dfs.gif">
 </p>
 
-    - Adversarial search and games
-        - MiniMax, alpha-beta pruning
+- Limited depth search algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/depth-limited-search-algorithm.png"></p>
+  
+- Graph search algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/Graph-vs-Tree.jpg.webp"></p>
+  
+- Iterative deepening search algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/ids.jpg"></p>
 
-#### Python programming concepts
-- Object oriented programming in Python
-    - Using and defining special python methods (dunder methods).
-    - Immutable objects.
-    - Making an object hashable (implementing `__hash__()` and `__eq__()` methods.
-    - Implementing decortors in Python.
-    - Class methods and static methods.
-    - `__repr__()` and `__str__()` methods.
+## Cognitive algorithms
+- Heuristic
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/Heuristic.jpg"></p>
+  
+- Greedy search algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/Greedy-search-path-example.gif"></p>
+  
+- A* search algorithm
+<p align="center">
+  <img width="20%" img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Weighted_A_star_with_eps_5.gif"></p>
+  
+- The best return first search algorithm
+<p align="center">
+  <img width="20%" img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtRp8Q8dD_kTAKfFa60Yrfp4zYoFdhxB3a08lGIumKu_Z5weAQ7y8kTMX1q2RGLuN2IHvhz3brvSgqTaWHJK35Effl7nWer6mQgT70kx_y5gRNVSH7TsAZ5wXkAQtBKe-TlF8l2RPm4D5WAwd0SGZinAVmbh5fH7SerY-X2puye9HCoweGCErqUMzeutgC/s16000/Selection_058.png"></p>
+  
+- SMA*Search Algorithm-
+<p align="center">
+  <img width="20%" img src="https://slideplayer.com/slide/13619921/83/images/4/SMA%2A+Example+Search+Space+g+%2B+h+%3D+f+Goal+node.jpg"></p>
+  
+- A* Algorithm to reduce memory consumption
 
-### Second part:
-- Machine learning
-    - Supervised learning:
-        - KNN, Naive Bayes, Desision Trees, SVM, Neural Nets
-    - Unsupervised learning:
-        - k-Means clustering
-    - Reinforcement learning
-        - Q-learning
+- Creation of heuristic functions
 
-### Example problems
-- Search:
-    - N-Puzzle, N-Queens, TSP
-- Games:
-    - Pacman, Chess
-- Learning:
-    - Pacman, Chess, etc.
+  ### Local search algorithm
+  <p align="center">
+  <img width="20%" img src="https://static.javatpoint.com/tutorial/ai/images/hill-climbing-algorithm-in-ai.png"></p>
 
-### Lesson 1: Uninformed (blind) search strategies
-- Implementing data structures like stack, queue and priority queue
-- Implementing N-Puzzle (8-Puzzle)
-- Implementing uninformed search strategies: BFS, DFS, UCS, DLS, IDS
-- Programming assignment
 
-### Lesson 2: Informed search strategies
-- Implementing informed search strategies: Greedy, A-star
-- Programming assignment
+- Hill climbing algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/10-queens-hill-climbing.gif"></p>
+  
+- Simulated cooling algorithm
+<p align="center">
+  <img width="20%" img src="https://miro.medium.com/v2/resize:fit:640/0*Ugs6DpDBzyzNyjHt.gif"></p>
+  
+- Genetic algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/100-queens-ga.gif"></p>
 
-### Lesson 3: Local search
-- Implementing N-Queens and TSP(a graphical implementation)
-- Implementing local search strategies: hill climbing, simulated annealing and genetic algorithms
-- Programming assignment
+## Constraint satisfaction problem
+- Coloring the map
+  <p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/imgs/color.gif"</p>
+- Limitation graph
+- Cognate mathematics
+- Reverse search algorithm
+- Bow compatibility algorithm
+- Algorithm of least conflict
 
-### Lesson 4: Adversarial search and games
-- Implementing Otello
-- Implementing adversarial search algoritms: Minimax and alpha-beta prunning
-- Programming assignment
+## Games:
 
-## Prerequisite
-- Basic knowledge of programming (Python)
-- Basic knowledge of data structures and algorithms
-
-## After first part:
-- You will have a good understanding of basic AI techniques (solving problems using searching)
-- You will become a real python programmer and most importantly a real programmer!
-- You will see a lot of programming challenges and you will learn how to solve them
-
-## Reference
-
+- MiniMax Algorithm
+<p align="center">
+  <img width="20%" img src="https://github.com/NonaHelmi/AI-Programming/blob/main/AI-Programming/Search/tic-tac-toe-minimax/preview/tic-tac-toe-minimax-game-tree.png"
+      </p>
+    
+- Alpha-Beta Pruning
+<p align="center">
+  <img width="20%" img src="https://upload.wikimedia.org/wikipedia/en/7/79/Minmaxab.gif"
+      </p>
+    
+- Expectimax Search Algorithm
+  <p align="center">
+  <img width="20%" img src="https://www.baeldung.com/wp-content/uploads/sites/4/2021/10/expected-value.jpg"
+      </p>
