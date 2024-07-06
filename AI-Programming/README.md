@@ -93,5 +93,5 @@
     
 - Expectimax Search Algorithm
   <p align="center">
-  <img width="20%" img src="https://www.baeldung.com/wp-content/uploads/sites/4/2021/10/expected-value.jpg"
+  <img width="50%" img src="https://www.baeldung.com/wp-content/uploads/sites/4/2021/10/expected-value.jpg"
       </p>
